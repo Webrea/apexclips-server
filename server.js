@@ -23,7 +23,7 @@ app.use('/downloads', express.static(DOWNLOAD_DIR));
 
 // Health check
 app.get('/health', (req, res) => {
-  res.json({ status: 'ok', message: 'ApexClips H264 cloud server is running' });
+  res.json({ status: 'ok', message: 'ApexClips H264 server v2' });
 });
 
 // Download video - max 720p
